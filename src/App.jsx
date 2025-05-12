@@ -1,6 +1,21 @@
 import { useState } from 'react'
 import './App.css'
 
+// const PRESET = {
+//   alternatives: [
+//     { name: "Fail2Ban", values: [2.5, 50, 0.85, 50] },
+//     { name: "Python + Scapy", values: [1.2, 150, 0.9, 100] },
+//     { name: "Snort/Suricata", values: [3, 200, 0.8, 120] },
+//     { name: "Asterisk AGI + PostgreSQL", values: [1.8, 250, 95, 80] }
+//   ],
+//   features: [
+//     { name: "Среднее время реакции на инцидент, сек", moreIsBetter: true, weight: 0.35 },
+//     { name: "Использование оперативной памяти, МБ", moreIsBetter: false, weight: 0.25 },
+//     { name: "Точность выявления аномалий", moreIsBetter: true, weight: 0.2 },
+//     { name: "Время обработки 1000 SIP-пакетов, мс", moreIsBetter: false, weight: 0.2 }
+//   ]
+// };
+
 
 const PRESET = {
   alternatives: [
